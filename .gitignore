@@ -1,0 +1,17 @@
+# raw TCGA download - huge, recreated by 01_download.R
+GDCdata/
+MANIFEST.txt
+
+# intermediate R objects - recreated by the scripts
+*.rds
+*.RData
+.Rhistory
+.Rproj.user/
+
+# big full DEG tables (6+ MB each) - keep only the *_significant.csv versions
+DEG_*_full.csv
+DESeq2_*_full.csv
+*_node_metrics.csv
+
+# Cytoscape session files
+*.cys
